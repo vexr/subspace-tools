@@ -14,3 +14,4 @@ chmod +x plot-size.sh
 ./plot-size.sh
 ./plot-size.sh /dev/sdb
 ```
+##### Notice: This script will prompt for elevated permissions. This is necessary to query tune2fs for ext4 and xfs_info for xfs file systems to obtain drive space information.
